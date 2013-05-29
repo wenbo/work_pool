@@ -1,0 +1,1 @@
+document.write('<a href="http://home.panasonic.cn/club/" target="_blank"><img src="http://home.panasonic.cn/lib/bm/attachments/20128/2012-8-22_NMbni683VqLGLTGbFdOHKnln7oboKC.jpg" /></a>');

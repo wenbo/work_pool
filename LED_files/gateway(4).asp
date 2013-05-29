@@ -1,0 +1,1 @@
+document.write('<a href="http://home.panasonic.cn/lumix/special/teach1/" target="_blank"><img src="http://home.panasonic.cn/lib/bm/attachments/20131/2013-1-18_ms8Cf5DaNavxWbh0rfH6gGTloVzkGF.jpg" /></a>');

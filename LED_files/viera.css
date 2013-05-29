@@ -1,0 +1,713 @@
+@charset "utf-8";
+/* CSS Document */
+/*button start*/
+.btn_prd{background:url(../images/common/button/viera-btn-prd.gif) no-repeat;text-shadow: -1px -1px 2px rgba(0, 0, 0, 0.5);}
+.btn_prd_ac{background:url(../images/common/button/viera-btn-prd-ac.gif) no-repeat;}
+/*button end*/
+/*menu start=====*/
+.header{background:#000;height:auto; width:100%; padding:0px;}
+.inheader{width:950px;position:relative;margin:0px auto;z-index:9;}
+.header .nav{padding:10px 0px 0 0px;height:52px;width:950px;margin:0px auto;text-align:left;position:relative;}
+.header .menu{height:50px;background:#1b1d1f;}
+.header .menu .inmenu{width:950px;margin:0px auto;text-align:left; position:relative;}
+.header .logo1{float:left;width:99px;margin-top:3px;margin-left:14px;}
+.header .logo2{float:right;}
+.header .menu .inmenu li{position:relative;}
+.header .menu .inmenu li,.header .menu .inmenu li a{float:left;display:block;height:50px;width:190px;}
+.header .menu .inmenu li.li2 a{background:url(/viera/images/menu.jpg) -190px 0 no-repeat;}
+.header .menu .inmenu li.li3 a{background:url(/viera/images/menu.jpg) -380px 0 no-repeat;}
+.header .menu .inmenu li.li4 a{background:url(/viera/images/menu.jpg) -570px 0 no-repeat;}
+.header .menu .inmenu li.li5 a{background:url(/viera/images/menu.jpg) -760px 0 no-repeat;}
+.header .menu .inmenu li.li5,.header .menu .inmenu li.li5 a{width:189px;}
+.header .menu .inmenu li.li2 a.current{background:url(/viera/images/menu_on.jpg) no-repeat;background-position:-190px 0;}
+.header .menu .inmenu li.li3 a.current{background:url(/viera/images/menu_on.jpg) no-repeat;background-position:-380px 0;}
+.header .menu .inmenu li.li4 a.current{background:url(/viera/images/menu_on.jpg) no-repeat;background-position:-570px 0;}
+.header .menu .inmenu li.li5 a.current{background:url(/viera/images/menu_on.jpg) no-repeat;background-position:-760px 0;}
+
+.header .menu .inmenu li.li2 a:hover{background:url(/viera/images/menu2_hover.jpg) no-repeat;}
+.header .menu .inmenu li.li3 a:hover{background:url(/viera/images/menu3_hover.jpg) no-repeat;}
+.header .menu .inmenu li.li4 a:hover{background:url(/viera/images/menu4_hover.jpg) no-repeat;}
+.header .menu .inmenu li.li5 a:hover{background:url(/viera/images/menu5_hover.jpg) no-repeat;}
+.header .iconhot{position:absolute;left:340px;top:-57px;text-decoration:none;display:block;}
+.header .iconhot2{position:absolute;left:720px;top:-57px;text-decoration:none;display:block;}
+.header .search input{background:url(../images/bg_search_b.gif) no-repeat; }
+/*dropmenu start*/
+.menu_show,.menu_show_on{margin-right:10px;width:125px;height:52px;display:block;float:left;padding:0px 0 0 14px;background:url(/viera/images/dropmenu/menu_bg.jpg) no-repeat;}
+.menu_show:hover,.menu_show_on{background:url(/viera/images/dropmenu/menushow_bg.jpg) no-repeat;}
+.dropmenu{color:#666;background-color:#20468c; width:946px; display:none;padding:2px; padding-top:5px;_overflow:hidden;z-index:100;text-align:left;position:absolute; left:0px; top:0px;z-index:3000;}
+.dropmenu a{color:#666;}
+.dropmenu .box{ background-color:#dedede; padding:9px 7px;float:left;width:932px;}
+.dropmenu .content{ border:1px solid #d0d0d0; background-color:#fff;padding:1px;float:left;padding-bottom:20px;}
+.dropmenu .title{ background:#fbfbfb url(/images/dropmenu/icon_arror3.gif) no-repeat 20px center; height:30px; line-height:30px; vertical-align:middle; padding-left:40px; font-weight:bold; color:#333; margin-bottom:1px;}
+.dropmenu .list{ float:left;border-right:1px solid #e3e3e3; width:216px; padding-left:15px;margin-top:10px;overflow:hidden;}
+.dropmenu dt{ background:url(/images/dropmenu/icon_arror2.gif) no-repeat left 7px; padding-left:10px; margin-top:5px;line-height:20px;}
+.dropmenu dt.dt_shop{background:url(/images/dropmenu/icon_arror2.gif) no-repeat left center;line-height:30px;}
+.dropmenu dt img{vertical-align:middle;}
+.dropmenu dt.mrg0{margin-top:0px;}
+.dropmenu dt img{ padding-top:5px;}
+.dropmenu dd{ padding-left:11px;}
+.dropmenu dd li{ float:left; background:url(/images/dropmenu/icon_arror4.gif) no-repeat left center; padding-left:8px; width:90px; line-height:20px;}
+.dropmenu dt a.current,.dropmenu dd li a.current{ font-weight:bold; text-decoration:underline;}
+/*menu end===*/
+.thumb{display:none;}
+.main_container{background:url(../images/viera/main_bg1.gif) repeat left top;}
+.mainwrap{background:url(../images/viera/main_bg2.gif) repeat-x; height:auto; overflow:hidden;}
+.prd_topbar .prd_nme h1{color:#fff;}
+.prd_topbar .prd_nme h2{color:#c0c0c4;}
+.prd_topbar .prd_tab li{color:#c0c0c4;}
+.prd_topbar .prd_tab li a{color:#c0c0c4;}
+.prd_topbar .prd_tab li a:hover{text-decoration:underline;color:#fff;}
+.prd_topbar .prd_tab li a.cur{color:#fff;font-weight:bold;}
+.prd_introbox .prd_intro1{background:url(../images/viera/products/prd-bg1.gif) no-repeat; width:950px;}
+.prd_introbox .prd_intro1 .prd_txt h1,.prd_introbox .prd_intro1 .prd_txt a{color:#fefefe;}
+.prd_introbox .prd_intro1 .prd_txt .ul_list li{color:#ccc;background-image:url(../images/viera/dot.gif);}
+.prd_introbox .prd_intro1 .prd_tt1{color:#ccc;}
+.prd_introbox .prd_intro1 .prd_price{color:#ccc;}
+.prd_introbox .prd_intro1 .prd_price .dscp{color:#666;}
+.prd_introbox .prd_intro1 .size_sele li{background:url(../images/viera/products/size-normal.png) no-repeat;}
+.prd_introbox .prd_intro1 .size_sele li.cur{background:url(../images/viera/products/size-on.png) no-repeat}
+.prd_introbox .prd_intro3 h2{ color:#fff;}
+.prd_introbox .prd_intro3 h2 a{ color:#fff;}
+.prd_introbox .prd_intro3 h3,.prd_introbox .prd_intro4 h3{ color:#fff;background:url(../images/viera/icon-arror1.png) left center no-repeat;}
+.prd_introbox .prd_intro3 h3 a,.prd_introbox .prd_intro4 h3 a{color:#fff;}
+.prd_introbox .prd_intro3,.prd_introbox .prd_intro4,.prd_introbox .prd_intro3 .feat_list a,.rela_box a.a1{color:#fff;}
+.rela_box a.a1 h4{color:#fff;}
+.more,a.more{color:#3e6fcf;}
+.prd_introbox .prd_intro3 .more,.prd_introbox .prd_intro4 .more{color:#3e6fcf;}
+.prd_introbox .feat_list .dscp{color:#999;}
+.prd_introbox .feat_list .dscp p{ padding-bottom:5px;}
+.rela_box .dscp{color:#959595;}
+.btn_pana{color:#fefeff;border:1px solid #26262a;background:#000;}
+.prd_introbox .prd_intro4 h4,.prd_introbox .prd_intro4 .dscp{ color:#959595;}
+.btn-serv{ padding-bottom:45px; padding-top:10px;}
+.footer_wrap{background:#fff; }
+.footer_box{background:#e1e2e3;width:100%;}
+/*footer_bnr*/
+.footer_bnr{width:960px;margin:0px auto;padding-top:10px;}
+.footer_bnr a img, .footer_bnr div img {border:5px solid #e1e2e3;  float:left;}
+.footer_bnr a:hover img, .footer_bnr div:hover img { border:5px solid #fff; }
+.footer_bnr a.slide{float:left;}
+.copyright{border-top:1px solid #cfd0d1;}
+/*features*/
+.prd_features{background:#2b2b2b; color:#999; width:900px; height:auto; overflow:hidden; padding-top:40px; padding-left:50px;}
+.prd_features table{ float:left; width:450px; height:150px;padding-right:75px;}
+.prd_features th{ padding-right:4px; vertical-align:top;}
+.prd_features td{ vertical-align:top; color:#999; padding-left:6px;}
+.prd_features td h2{ color:#fff;}
+.prd_features td p{ padding-top:5px;}
+/*====gallery_box start=====*/
+.page_mainbox{border:1px solid #3a3a3a;background:#2b2b2b;}
+.spec_mainbox .spec_list{color:#999;border-bottom:1px solid #4b4b4b;}
+.spec_mainbox .spec_list h1{color:#fff;}
+.spec_mainbox .spec_list li{background:url(../images/viera/dot.gif) left 5px no-repeat;}
+.gallery_box,.gallery_box .panel{background:#2b2b2b;}
+.gallery_box  .nav-prev{position:absolute;left:10px;top:491px;background:url(../images/viera/products/gallery_btn.jpg) 0 0 no-repeat;width:40px;height:80px;display:inline-block;}
+.gallery_box  .nav-next{position:absolute;right:10px;top:491px;background:url(../images/viera/products/gallery_btn.jpg) -40px 0 no-repeat;width:40px;height:80px;display:inline-block;}
+.gallery_box  .nav-prev:hover{background-position:-80px 0;}
+.gallery_box  .nav-next:hover{background-position:-120px 0;}
+.gallery_box  .filmstrip li{border:1px solid #cccccc;margin-right:10px;width:108px;height:78px;overflow:hidden; background:#FFF;}
+.gallery_box #pointer{border:2px solid red;/*height:84px;*/z-index:1000;}
+/*====gallery_box end=====*/
+.relate_pgwrap{ color:#fff;}
+/*=======product_wrap start=======*/
+.product_wrap .kvslide_wrap,#kvslide{height:170px;}
+.btn_prdlist1{background:url(../images/viera/products/btn-prdlist1.gif) no-repeat;color:#fff;line-height:24px;}
+.product_wrap .kvslide_wrap #pager a {background:url(../images/viera/products/prdlist-dot.png) right top no-repeat;}
+.product_wrap .kvslide_wrap #pager a:hover,.kvslide_wrap #pager a.activeSlide {background:url(../images/viera/products/prdlist-dot.png) left top no-repeat;}
+.prdlist_mainbox .prdlist_bar1{background:url(../images/viera/products/prdlist-barbg1.gif) left top repeat-y;border:1px solid #131313; border-top:none;}
+.prdlist_mainbox .prdlist_bar1 dt a{padding:14px;display:inline-block;width:200px;}
+.prdlist_mainbox .prdlist_bar1 a{color:#fff;}
+.prdlist_mainbox .prdlist_bar1 dt.line{background:url(../images/viera/products/prdlist-line.gif) left center repeat-x;height:2px;overflow:hidden;font-size:0px;line-height:0px;}
+.prdlist_mainbox .prdlist_bar1 dt a:hover,.prdlist_mainbox .prdlist_bar1 dt a.current{background:url(../images/viera/products/prdlist-hover.gif) repeat-y left top;}
+.prdlist_mainbox .prdlist_bar1 dd{display:none;}
+.prdlist_mainbox .prdlist_bar2{border:1px solid #191919; background:#353535;color:#cdcdcd;}
+.prdlist_mainbox .prdlist_bar2 h2{background:#2b2b2b;border-bottom:1px solid #272727;border-top:1px solid #272727; color:#fff;}
+.prdlist_mainbox .prdlist_bar2 h3{color:#d9003c;}
+.prdlist_mainbox .prdlist_bar2 .bar2_cont{border-bottom:1px solid #272727;}
+.prdlist_mainbox .prdlist_bar2 .bar2_cont .bar2_cont_ul_19 li{ width:100px; float:left;}
+.prdlist_mainbox .prdlist_cont{background:#e4e4e4;}
+.prdlist_mainbox .prdlist_cont .pager{background:url(../images/viera/products/pager-bg2.gif) repeat-x;color:#fff;}
+.prdlist_mainbox .prdlist_cont .pager_cont a{color:#fff;}
+.prdlist_mainbox .prdlist_cont .pager_cont .page_prev a,.prdlist_mainbox .prdlist_cont .pager_cont .page_next a{color:#fff;}
+.prdlist_mainbox .prdlist_cont .pager_cont .page_prev a.cur,.prdlist_mainbox .prdlist_cont .pager_cont .page_next a.cur{color:#959595;}
+.prdlist_mainbox .prdlist_cont .pager_cont li.num a.cur{background:url(../images/viera/products/pager-bg.gif) left center no-repeat;color:#fff;}
+.prdlist_mainbox .prdlist_cont1 .rela_box h4{ color:#000;}
+.prdlist_mainbox .prdlist_bnr{margin-top:10px;}
+/*=======product_wrap end========*/
+/*====container_prd2 start====*/
+.container_prd2{background:#fff url(../images/viera/prd-white-bg.gif) repeat;}
+.container_prd2 .main_container,.container_prd2 .mainwrap{	background:none;}
+.container_prd2 .prdlist_mainbox .prdlist_bar1{background:url(../images/viera/products/prdlist-barbg2.gif) left top repeat-y;border:1px solid #e6e8e8;}
+.container_prd2  .prdlist_mainbox .prdlist_bar1 dt.line{background:url(../images/viera/products/prdlist-line2.gif) left center repeat-x;}
+.container_prd2 .prdlist_mainbox .prdlist_bar1 a{color:#45494b;}
+.container_prd2  .prdlist_mainbox .prdlist_bar1 dt a:hover,.container_prd2 .prdlist_mainbox .prdlist_bar1 dt a.current{color:#fff;background:url(../images/viera/products/prdlist-hover2.gif) repeat-y left top;}
+.container_prd2 .prdlist_mainbox .prdlist_bar2{border:1px solid #e6e8e8; background:#f7f7f8;color:#45494b;}
+.container_prd2 .prdlist_mainbox .prdlist_bar2 h2{background:#e2e2e4;border-top:1px solid #f8f8f8; border-bottom:none;color:#45494b;}
+.container_prd2 .prdlist_mainbox .prdlist_bar2 .bar2_cont{border:none;}
+.container_prd2 .prdlist_mainbox .prdlist_bar2 .bar2_line{background:url(../images/viera/products/prdlist-line2.gif) left center repeat-x;height:2px;margin:0 8px;}
+.container_prd2 .btn_prdlist1{background:url(../images/viera/products/btn-prdlist2.gif) no-repeat;color:#fff;}
+.container_prd2 .prdlist_mainbox .prdlist_cont{background:#fff;}
+.container_prd2 .prdlist_mainbox .prdlist_cont .pager{background:url(../images/viera/products/pager-bg3.gif) repeat-x;color:#000;}
+.container_prd2 .prdlist_mainbox .prdlist_cont .pager_cont a{color:#45494b;}
+.container_prd2 .prdlist_mainbox .prdlist_cont .pager_cont .page_prev a,.container_prd2 .prdlist_mainbox .prdlist_cont .pager_cont .page_next a{color:#45494b;}
+.container_prd2 .prdlist_mainbox .prdlist_cont .pager_cont .page_prev a.cur,.container_prd2 .prdlist_mainbox .prdlist_cont .pager_cont .page_next a.cur{color:#959595;}
+.container_prd2 .prd_topbar .prd_nme h1{color:#2b2b2b;}
+.container_prd2 .prd_topbar .prd_nme h2{color:#3c3c3c;}
+.container_prd2 .prd_topbar .prd_tab li,.container_prd2 .prd_topbar .prd_tab li a{color:#666;}
+.container_prd2 .prd_topbar .prd_tab li a:hover{color:#2a2a2a;}
+.container_prd2 .prd_topbar .prd_tab li a.cur{color:#2a2a2a;font-weight:bold;}
+.container_prd2 .prd_introbox .prd_intro1 .prd_txt .ul_list li{color:#ccc;background:url(../images/viera/dot2.gif) left center no-repeat;}
+.container_prd2 .prd_introbox .prd_intro1{background:url(../images/viera/products/prd-bg2.gif) no-repeat; }
+.container_prd2 .prd_introbox .prd_intro1 .prd_txt h1,.container_prd2 .prd_introbox .prd_intro1 .prd_txt a{color:#242424;}
+.container_prd2 .prd_introbox .prd_intro1 .prd_txt .ul_list li,.container_prd2 .prd_introbox .prd_intro1 .prd_tt1,.container_prd2 .prd_introbox .prd_intro1 .prd_price{color:#848484;}
+.container_prd2 .prd_introbox .prd_intro1 .prd_price .dscp{color:#848485;}
+.container_prd2 .prd_intro2bg{background:#fff;padding-bottom:40px;}
+.container_prd2 .prd_introbox .prd_intro3{color:#231f20;}
+.container_prd2 .prd_introbox .prd_intro3 h2,.container_prd2 .prd_introbox .prd_intro3 h2 a,.container_prd2 .prd_introbox .feat_list .dscp{ color:#231f20;}
+.container_prd2 .prd_introbox .prd_intro3 h3,.container_prd2 .prd_introbox .prd_intro4 h3{ color:#231f20;}
+.container_prd2 .prd_introbox .prd_intro3 h3 a,.container_prd2 .prd_introbox .prd_intro4 h3 a{color:#231f20;}
+.container_prd2 .prd_introbox .prd_intro3,.container_prd2 .prd_introbox .prd_intro4,.container_prd2 .prd_introbox .prd_intro3 .feat_list a,.container_prd2 .rela_box a.a1{color:#231f20;}
+.container_prd2 .rela_box a.a1 h4{color:#231f20;}
+.container_prd2 .more,.container_prd2 a.more{color:#2b7af2;}
+.container_prd2 .prd_introbox .prd_intro3 .more,.container_prd2 .prd_introbox .prd_intro4 .more{color:#2b7af2;}
+.container_prd2 .page_mainbox{border:1px solid #e5e5e5;background:#fff;}
+.container_prd2 .spec_mainbox .spec_list{color:#2b2b2b;border-bottom:1px solid #ccc;}
+.container_prd2 .spec_mainbox .spec_list h1{color:#b3b3b3;}
+.container_prd2 .spec_mainbox .spec_list li{background:url(../images/lumix/dot.gif) left 5px no-repeat;}
+/*=====footer start=====*/
+.container_prd2 .footer_box{background:#e1e2e3;}
+.container_prd2 .copyright{border-top:1px solid #cfd0d1;}
+.container_prd2 .footer_bnr a img,.container_prd2  .footer_bnr div img { border:5px solid #e1e2e3; }
+.container_prd2 .footer_bnr a:hover img,.container_prd2 .footer_bnr div:hover img { border:5px solid #fff; }
+/*====container_prd2 end====*/
+
+/* feature */
+.prd_featurebox{ width:950px; margin:0 auto;background:#fff; padding-bottom:120px;/*padding-bottom:50px;*/}
+.feature_menu{padding-top:10px;text-align:center;height:50px;background:#fff;}
+.feature_menu ul{width:720px;margin:0 auto;}
+.feature_menu ul li{float:left;}
+.feature_menu ul li a{ display:block; height:50px; }
+.feature_menu ul li.menu_01 a{background:url(../images/viera/features/btn-01.gif) no-repeat;width:271px;}
+.feature_menu ul li.menu_01 a.current,.feature_menu ul li.menu_01 a:hover{background:url(../images/viera/features/btn-01-on.gif) no-repeat;}
+.feature_menu ul li.menu_02 a{background:url(../images/viera/features/btn-02.gif) no-repeat;width:228px;}
+.feature_menu ul li.menu_02 a.current,.feature_menu ul li.menu_02 a:hover{background:url(../images/viera/features/btn-02-on.gif) no-repeat;}
+.feature_menu ul li.menu_03 a{background:url(../images/viera/features/btn-03.gif) no-repeat;width:212px;}
+.feature_menu ul li.menu_03 a.current,.feature_menu ul li.menu_03 a:hover{background:url(../images/viera/features/btn-03-on.gif) no-repeat;}
+.feature_cont{width:890px; padding-left:60px;font-size:14px;color:#444444;margin-top:50px; }
+.feature_cont h1{ color:#231f20; font-size:30px; height:61px; line-height:61px;}
+.feature_cont .title{ }
+.feature_cont .title span img{ float:left; padding-right:20px; padding-top:5px;}
+.feature_cont .title h1{ float:left;font-size:30px; height:auto; line-height:normal;}
+.feature_cont .title h1 span{ font-size:14px; color:#454545;}
+.feature_cont h2{ font-size:20px;padding-bottom:20px; padding-top:30px;}
+.feature_cont .h2_20{ padding-bottom:20px;}
+.feature_cont h3{ font-size:16px; color:#000;}
+.feature_cont h1.f_line2{line-height:30px;}
+.feature_cont h1.lcd{ line-height:45px; }
+.feature_cont .detail_lcd{background:url(../images/viera/features/lcd/detail-bk.jpg) no-repeat;position:relative; width:745px; height:326px;}
+.feature_cont .detail_lcd h1{ position:absolute; top:20px; right:0px;}
+.feature_cont .detail_led{background:url(../images/viera/features/led/detail-bk.jpg) no-repeat;height:327px; margin-top:25px;padding-left:455px;}
+.feature_cont .detail_led p{ font-size:16px;color:#000; width:360px;}
+.feature_cont .detail_led p span{ font-size:14px; color:#444; padding-top:10px; padding-left:20px; display:block;}
+.feature_cont .detail_vieralink{background:url(../images/viera/features/vieralink/detail-vieralink.jpg) no-repeat; width:680px; padding-top:445px; padding-left:150px; margin-top:50px;}
+.feature_cont .detail_sdlink{ float:left; width:207px; text-align:center; padding-top:30px;}
+.feature_cont .detail_sdlink p{ padding:10px 20px; text-align:left; font-size:12px;}
+.feature_cont .more{ float:right; margin-top:20px;}
+.detail_thx3d{background:url(../images/viera/features/thx3d/detail-21.jpg) no-repeat; width:890px; height:493px; padding-top:50px; padding-left:60px; color:#444; font-size:14px;}
+.feature_cont h1 .memo1{font-size:16px;}
+.feature_cont p{ padding-top:20px;line-height:20px; font-size:14px;}
+.feature_cont p.notice{ font-size:14px;}
+.feature_cont .txt1{ padding-left:25px; padding-bottom:30px;}
+.feature_cont .notice{ font-size:12px;font-size:12px; padding-top:10px; color:#888888;}
+.feature_cont .list{ padding-top:30px; width:290px;}
+.feature_cont .list li{ float:left; padding-right:20px; padding-bottom:10px;}
+.feature_cont .list1 li{ float:left; padding-right:80px; width:345px; margin-bottom:20px; background:url(../images/viera/features/icon1.gif) no-repeat left 9px; padding-left:8px; font-size:16px; color:#000;}
+.feature_cont .list1 li span{ color:#444; font-size:14px; display:block; padding-top:5px;}
+.feature_detail{ margin-top:30px;}
+.feature_detail p.img{margin:0 auto; margin-top:20px;}
+.feature_detail p.note{ color:#888; font-size:12px; width:300px; margin-top:135px;}
+.feature_usb{background:url(../images/viera/features/usb/detail-bk.jpg) no-repeat; height:426px; position:relative;}
+.feature_menu ul li.menu2_01 a{background:url(../images/viera/features/btn2-01.gif) no-repeat;width:183px;}
+.feature_menu ul li.menu2_01 a.current,.feature_menu ul li.menu2_01 a:hover{background:url(../images/viera/features/btn2-01-on.gif) no-repeat;}
+.feature_menu ul li.menu2_02 a{background:url(../images/viera/features/btn2-02.gif) no-repeat;width:185px;}
+.feature_menu ul li.menu2_02 a.current,.feature_menu ul li.menu2_02 a:hover{background:url(../images/viera/features/btn2-02-on.gif) no-repeat;}
+.feature_menu ul li.menu2_03 a{background:url(../images/viera/features/btn2-03.gif) no-repeat;width:145px;}
+.feature_menu ul li.menu2_03 a.current,.feature_menu ul li.menu2_03 a:hover{background:url(../images/viera/features/btn2-03-on.gif) no-repeat;}
+.feature_menu ul li.menu2_04 a{background:url(../images/viera/features/btn2-04.gif) no-repeat;width:196px;}
+.feature_menu ul li.menu2_04 a.current,.feature_menu ul li.menu2_04 a:hover{background:url(../images/viera/features/btn2-04-on.gif) no-repeat;}
+.features_item_list_title{display:none;}
+.prd_featurebox .top_link{clear:both;margin-top:10px;padding-right:40px;display:block;}
+.prd_featurebox .top_link a{}
+.prd_featurebox .top_link a:hover{text-decoration:underline;}
+.feature_cont .withicon{ height:47px; line-height:47px;}
+/*tech_container*/
+.tech_container{background:#e3e5ee;padding-bottom:140px;margin:0px auto;text-align:left;width:100%; }
+.tech_wrap{width:950px;margin:0px auto;position:relative; }
+.tech_nav{background:url(/images/viera/technology/bg-nav.gif) repeat-x left top; height:126px;position:absolute;left:0px;bottom:0px;position:fixed;width:100%;z-index:999;
+_bottom:auto;_position:absolute;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-110-(parseInt(this.currentStyle.marginBottom,10)||0)));}
+.tech_nav ul{ margin:0 auto; width:950px;}
+.tech_nav li{ height:76px; float:left;}
+.tech_nav li span{ display:none;}
+.tech_nav li a{ display:block; float:left; height:76px;}
+.tech_nav li.li1 a{background:url(/images/viera/technology/nav1.gif) no-repeat; width:326px;}
+.tech_nav li.li1 a.current{background:url(/images/viera/technology/nav1_on.gif) no-repeat; width:326px;}
+.tech_nav li.li2 a{background:url(/images/viera/technology/nav2.gif) no-repeat; width:299px;}
+.tech_nav li.li2 a.current{background:url(/images/viera/technology/nav2_on.gif) no-repeat; width:299px;}
+.tech_nav li.li3 a{background:url(/images/viera/technology/nav3.gif) no-repeat; width:325px;}
+.tech_nav li.li3 a.current{background:url(/images/viera/technology/nav3_on.gif) no-repeat; width:325px;}
+
+.tech_menu{ width:20px; height:100px; top:65px;  position:absolute;z-index:998;}
+.tech_menu li{ padding-bottom:10px;}
+.tech_menu li a{background:url(/images/viera/technology/li-normal.gif) no-repeat left center; width:16px; height:16px; display:block;}
+.tech_menu li a:hover,.tech_menu li a.current{background:url(/images/viera/technology/li-ov.gif); border:2px solid #cc241f;}
+.tech_container h2{position:absolute;background:url(/images/viera/technology/txtline.png) no-repeat 0px 2px;height:18px; padding-left:10px; line-height:18px;  font-size:16px;}
+.tech_container p{color:#454545; font-size:14px; position:absolute;}
+.tech_container .tech_cont{width:950px;margin:0px auto;}
+.tech_container .tech_cont1{width:950px;height:485px;text-align:left;position:relative;background:url(/images/viera/technology/index1_bg01.jpg) left top no-repeat;margin:0 auto;}
+.tech_container .tech_cont1 h2{left:50px; top:120px;}
+.tech_container .tech_cont1 p{left:50px; top:150px; width:430px;}
+.tech_container .tech_cont2{width:950px;height:335px;background:url(/images/viera/technology/index1_bg02.jpg) left top no-repeat;margin:0px auto;position:relative; text-align:left;}
+.tech_container .tech_cont2 h2{left:525px; top:200px;}
+.tech_container .tech_cont2 p{left:525px; top:230px; width:260px;}
+.tech_container .tech_cont2 p.tips{left:525px;top:295px;font-size:12px;color:#888888;}
+.tech_container .tech_cont3{height:850px;background:url(/images/viera/technology/index1_bg03.jpg) center top no-repeat; text-align:left;}
+.tech_container .tech_cont4{height:500px;background:url(/images/viera/technology/index1_bg04.jpg) center top no-repeat;text-align:left;}
+.tech_container .tech_cont4 h2{left:40px; top:380px;}
+.tech_container .tech_cont4 p{left:40px; top:410px; width:510px;}
+.tech_container .tech_cont5{height:410px;background:url(/images/viera/technology/index1_bg05.jpg) center top no-repeat; margin:0px auto; position:relative; text-align:left;}
+.tech_container .tech_cont5 h2{left:40px; top:55px;}
+.tech_container .tech_cont5 p{left:40px; top:85px; width:260px;}
+.tech_container .tech_cont5 p.tips{left:40px;top:235px;font-size:12px;color:#888888;}
+.tech_container .tech_cont6{height:670px;background:url(/images/viera/technology/index1_bg06.jpg) center top no-repeat;}
+.tech_container .tech_cont6 h2{left:140px; top:0px;}
+.tech_container .tech_cont6 p{left:140px; top:25px; width:310px;}
+.tech_container .tech_cont6 p.tips{left:40px;top:590px;font-size:12px;color:#888888; width:550px;}
+.tech_container .tech_cont7{height:600px;background:url(/images/viera/technology/index1_bg07.jpg) center top no-repeat;text-align:left;}
+.tech_container .tech_cont7 h2{left:40px; top:45px;}
+.tech_container .tech_cont7 p{left:40px; top:70px; width:510px;}
+.tech_container .tech_cont7 p.tips{left:40px;top:145px;font-size:12px;color:#888888; width:550px;}
+.tech_container .tech_cont8{height:600px;background:url(/images/viera/technology/index1_bg08.jpg) center top no-repeat;}
+.tech_container .tech_cont9{height:600px;background:url(/images/viera/technology/index1_bg09.jpg) center top no-repeat; }
+.tech_container .tech_cont10{height:430px;background:url(/images/viera/technology/index1_bg10.jpg) center top no-repeat; }
+.tech_container .tech_cont11{width:950px;height:580px;background:url(/images/viera/technology/index1_bg11.jpg) center top no-repeat;margin:0px auto;}
+
+.tech2_wrap{margin:0px auto; padding-bottom:140px;text-align:left;background:url(../images/viera/technology/index2_bg.gif);width:100%;}
+.tech2_wrap .tech_cont,.tech3_wrap .tech_cont{width:950px;margin:0px auto; position:relative;}
+.tech2_wrap h2,.tech3_wrap h2{position:absolute;background:url(../images/viera/technology/txtline3.gif) no-repeat 0px 2px;height:16px; padding-left:10px; line-height:16px;  font-size:16px;color:#fff;}
+.tech2_wrap p,.tech3_wrap p{font-size:14px; position:absolute; color:#e2e2e2;}
+.tech2_wrap p.notice,.tech3_wrap p.notice{ color:#aaa; font-size:12px;}
+.tech2_wrap .tech_cont1{width:950px;height:353px;background:url(../images/viera/technology/index2_02.jpg) no-repeat; margin:0 auto; position:relative;}
+.tech2_wrap .tech_cont1 p.p1{left:45px; top:136px; width:280px;}
+.tech2_wrap .tech_cont1 p.p2{left:45px; top:182px; width:280px;}
+.tech2_wrap .tech_cont1 p.notice{left:45px; top:230px;}
+.tech2_wrap .tech_cont2{width:950px;height:399px;background:url(../images/viera/technology/index2_03.jpg) no-repeat; margin:0 auto; position:relative;}
+.tech2_wrap .tech_cont2 h2{left:45px; top:25px;}
+.tech2_wrap .tech_cont3{height:387px;background:url(../images/viera/technology/index2_04.jpg) no-repeat center top;}
+.tech2_wrap .tech_cont3 p.p1{ left:45px; top:245px; width:244px;}
+.tech2_wrap .tech_cont3 p.p2{ left:45px; top:291px;}
+.tech2_wrap .tech_cont3 p.p3{ left:326px; top:253px;}
+.tech2_wrap .tech_cont3 p.p4{ left:492px; top:325px;}
+.tech2_wrap .tech_cont4{width:950px;height:396px;background:url(../images/viera/technology/index2_05.jpg) no-repeat; margin:0 auto; position:relative;}
+.tech2_wrap .tech_cont4 h2{left:45px; top:42px;}
+.tech2_wrap .tech_cont5{width:950px;height:504px;background:url(../images/viera/technology/index2_06.jpg) no-repeat; margin:0 auto; position:relative;}
+.tech2_wrap .tech_cont5 h2{left:45px; top:115px;}
+.tech2_wrap .tech_cont5 p.p1{ left:45px; top:160px; width:464px;}
+.tech2_wrap .tech_cont5 p.p2{ left:172px; top:441px;}
+.tech2_wrap .tech_cont5 p.p3{ left:431px; top:421px;}
+.tech2_wrap .tech_cont5 p.p4{ left:677px; top:441px; width:100px;}
+.tech2_wrap .tech_cont6{height:560px;background:url(../images/viera/technology/index2_07.jpg) no-repeat center top;}
+.tech2_wrap .tech_cont6 h2{ left:428px; top:133px;}
+.tech2_wrap .tech_cont6 p.p1{ left:428px; top:178px; width:350px;}
+.tech2_wrap .tech_cont6 p.p2{ left:45px; top:440px;}
+.tech2_wrap .tech_cont6 p.p3{ left:315px; top:510px;}
+.tech2_wrap .tech_cont7{height:497px;background:url(../images/viera/technology/index2_08.jpg) no-repeat center top;}
+.tech2_wrap .tech_cont7 h2{ left:45px; top:20px;}
+.tech2_wrap .tech_cont7 p{ left:663px; top:418px; width:130px;}
+.tech2_wrap .tech_cont8{height:438px;background:url(../images/viera/technology/index2_09.jpg) no-repeat center top;}
+.tech2_wrap .tech_cont8 h2{ left:456px; top:209px;}
+.tech2_wrap .tech_cont8 p{ left:456px; top:255px; width:326px;}
+.tech2_wrap .tech_cont8 p.notice{ left:456px; top:305px;}
+.tech2_wrap .tech_cont9{height:293px;background:url(../images/viera/technology/index2_10.jpg) no-repeat center top;}
+.tech2_wrap .tech_cont10{height:558px;background:url(../images/viera/technology/index2_11.jpg) no-repeat center top;}
+.tech2_wrap .tech_cont10 h2{ left:0px; top:75px;}
+.tech2_wrap .tech_cont10 p{ left:0px; top:107px; width:583px;}
+.tech2_wrap .tech_cont11{height:493px;background:url(../images/viera/technology/index2_12.jpg) no-repeat center top;}
+.tech2_wrap .tech_cont11 p{ left:0px; top:133px; width:652px;}
+.tech2_wrap .tech_cont12{height:494px;background:url(../images/viera/technology/index2_13.jpg) no-repeat center top;}
+.tech2_wrap .tech_cont12 h2{ left:0px; top:104px;}
+.tech2_wrap .tech_cont12 p.p1{ left:0px; top:169px; width:662px;}
+.tech2_wrap .tech_cont12 p.p2{ left:93px; top:404px; width:217px; font-size:12px;}
+.tech2_wrap .tech_cont12 p.p3{ left:484px; top:404px; width:175px; font-size:12px;}
+.tech2_wrap .tech_cont13{height:284px;background:url(../images/viera/technology/index2_14.jpg) no-repeat center top;}
+.tech2_wrap .tech_cont13 p{ left:0px; top:212px; width:659px;}
+
+
+.tech3_wrap{margin:0px auto; padding-bottom:140px;text-align:left;background:#191919;}
+.tech3_wrap p span{ font-size:16px;}
+.tech3_wrap .tech_cont1{width:950px;height:684px;background:url(../images/viera/technology/index3_02.jpg) no-repeat; margin:0 auto; position:relative;}
+.tech3_wrap .tech_cont1 h2{left:510px; top:90px;}
+.tech3_wrap .tech_cont1 p{left:510px; top:137px; width:266px;}
+.tech3_wrap .tech_cont2{width:950px;height:160px;background:url(../images/viera/technology/index3_03.jpg) no-repeat; margin:0 auto; position:relative;}
+.tech3_wrap .tech_cont2 h2{left:44px; top:16px;}
+.tech3_wrap .tech_cont2 p{left:44px; top:70px; width:300px;}
+.tech3_wrap .tech_cont3{height:221px;background:url(../images/viera/technology/index3_04.jpg) no-repeat center top;}
+.tech3_wrap .tech_cont3 p{left:170px; top:75px; width:290px;}
+.tech3_wrap .tech_cont4{height:402px;background:url(../images/viera/technology/index3_05.jpg) no-repeat center top;}
+.tech3_wrap .tech_cont4 p{left:213px; top:70px; width:290px;}
+.tech3_wrap .tech_cont4 .pic{left:210px; top:126px; position:absolute;}
+.tech3_wrap .tech_cont5{width:950px;height:522px;background:url(../images/viera/technology/index3_06.jpg) no-repeat;position:relative;margin:0 auto;}
+.tech3_wrap .tech_cont5 p.p1{left:213px; top:186px;}
+.tech3_wrap .tech_cont5 p.p2{left:213px; top:296px;}
+.tech3_wrap .tech_cont5 p.p3{left:160px; top:416px;}
+.tech3_wrap .tech_cont5 .pic1{left:210px; top:240px; position:absolute;}
+.tech3_wrap .tech_cont5 .pic2{left:210px; top:350px; position:absolute;}
+.tech3_wrap .tech_cont6{height:372px;background:url(../images/viera/technology/index3_07.jpg)  no-repeat center top;}
+.tech3_wrap .tech_cont6 h2{left:530px; top:180px;}
+.tech3_wrap .tech_cont6 p{left:530px; top:230px; width:252px;}
+.tech3_wrap .tech_cont6 p.notice{left:530px; top:300px;}
+.tech3_wrap .tech_cont7{width:950px;height:422px;background:url(../images/viera/technology/index3_08.jpg) no-repeat;position:relative;margin:0 auto;}
+.tech3_wrap .tech_cont7 h2{left:45px; top:26px;}
+.tech3_wrap .tech_cont7 p.p1{left:45px; top:76px;}
+.tech3_wrap .tech_cont7 p.p2{left:645px; top:145px; line-height:2.4em;}
+.tech3_wrap .tech_cont7 p.p3{left:45px; top:345px;}
+.tech3_wrap .tech_cont7 p.p4{left:412px; top:345px;}
+.tech3_wrap .tech_cont8{height:374px;background:url(../images/viera/technology/index3_09.jpg)  no-repeat center top;}
+.tech3_wrap .tech_cont9{height:227px;background:url(../images/viera/technology/index3_10.jpg)  no-repeat center top;}
+.tech3_wrap .tech_cont9 p{left:43px; top:36px;}
+.tech3_wrap .tech_cont10{height:215px;background:url(../images/viera/technology/index3_12.jpg)  no-repeat center top;}
+.tech3_wrap .tech_cont10 h2{left:45px;top:21px;}
+.tech3_wrap .tech_cont10 p{left:45px;top:67px; width:515px;}
+.tech3_wrap .tech_cont10 p.notice{left:500px; top:128px; width:auto;}
+.tech3_wrap .tech_cont11{height:449px;background:url(../images/viera/technology/index3_13.jpg)  no-repeat center top;}
+.tech3_wrap .tech_cont11 h2{left:392px;top:44px;}
+.tech3_wrap .tech_cont11 p.p1{left:392px;top:112px; width:322px;}
+.tech3_wrap .tech_cont11 p.p2{left:125px; top:310px;width:322px;}
+.tech3_wrap .tech_cont12{height:357px;background:url(../images/viera/technology/index3_14.jpg)  no-repeat center top;}
+.tech3_wrap .tech_cont12 p.p1{left:464px;top:54px; width:315px;}
+.tech3_wrap .tech_cont12 p.p2{left:45px; top:223px;width:255px;}
+.tech3_wrap .tech_cont13{width:950px;height:310px;background:url(../images/viera/technology/index3_15.jpg) no-repeat;position:relative;margin:0 auto;}
+.tech3_wrap .tech_cont13 h2{ left:45px; top:130px;}
+.tech3_wrap .tech_cont13 p{ left:45px; top:172px; width:250px;}
+.tech3_wrap .tech_cont13 p.notice{ left:45px; top:255px;}
+.tech3_wrap .tech_cont14{width:950px;height:571px;background:url(../images/viera/technology/index3_16.jpg) no-repeat;position:relative;margin:0 auto;}
+.tech3_wrap .tech_cont14 h2{ left:45px; top:40px;}
+.tech3_wrap .tech_cont15{width:950px;height:388px;background:url(../images/viera/technology/index3_17.jpg) no-repeat;position:relative;margin:0 auto;}
+.tech3_wrap .tech_cont15 p.p1{ left:354px; top:9px;}
+.tech3_wrap .tech_cont15 p.p2{ left:623px; top:9px;}
+
+
+/**/
+.viera_index .inbox1_lf{float:left;width:650px;}
+.viera_index .indebox1_rt{float:right;}
+.viera_index .main{background:url(../../images/viera/prd-white-bg.gif) repeat;}
+.viera_index .banner_01{background:url(../images/viera/index/banner-01.jpg) no-repeat;width:950px;height:230px;position:relative;margin-bottom:10px;}
+.viera_index .banner_01 .icon{position:absolute;left:-5px;top:-5px;}
+.count_box{background:url(/images/count/count_bg.gif) no-repeat;width:230px;height:240px; position:relative;}
+.count_box .num{ position:absolute; top:185px;text-align:center;width:28px; height:17px;}
+/*.count_box .num{ position:absolute; top:142px;left:87px;text-align:center;width:60px; height:17px;}*/
+#goldmedal{left:107px;}
+#silvermedal{left:45px;}
+#bronzemedal{left:166px;}
+.count_box .pic_count{ position:absolute; left:15px; top:10px;width:200px;height:56px;overflow-y:hidden;}
+.viera_index .zsbox{padding:10px; background:#fff url(../images/viera/index/zsbox_bg.gif) repeat-x left bottom;height:299px;color:#717171;border:1px solid #e5e5e5;width:268px;}
+.viera_index .zsbox h1{margin-left:10px;color:#000;font-size:14px;margin-bottom:5px; margin-top:10px;}
+.viera_index .zsbox h1 a,.viera_index .zsbox h2 a{color:#000;}
+.viera_index .zsbox .campaign_box .text{margin-left:12px;_margin-left:6px;}
+.viera_index .zsbox .campaign_box .text a{color:#7a7a7a;}
+.viera_index .zsbox h2{font-size:14px;color:#000;margin:20px 0 8px 20px;_margin-left:15px;}
+.viera_index .zsbox .news_box{margin-left:8px;_margin-left:6px;}
+.viera_index .zsbox .news_box li{line-height:27px;}
+.viera_index .zsbox .news_box li a{color:#717171;}
+.viera_index .prdbnr_box{height:290px;margin-bottom:10px;}
+.viera_index .prdbnr_box .inbox1{float:left;}
+.viera_index .inmain a:hover img{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);/*-moz-opacity: 0.8;*/opacity: 0.8;}
+.viera_index .index_btnprd1{background:url(../images/viera/index/prdbnr-01.jpg) no-repeat;width:327px;height:290px;display:inline-block;position:relative;}
+.viera_index .index_btnprd1 img,.viera_index .index_btnprd2 img{position:absolute;left:30px;top:179px;}
+.viera_index .index_btnprd2{background:url(../images/viera/index/techbnr-01.jpg) no-repeat;width:353px;height:288px;display:inline-block;position:relative;}
+/*kv*/
+.viera_index #play{float:left;}
+.viera_index #play {width:323px;height:290px;overflow:hidden;position:relative; }
+.viera_index #play_text {position:absolute;left:18px;bottom:17px;width:72px;height:9px;}
+.viera_index #play_text ul {list-style-type:none; display:block;padding-top:1px;}
+.viera_index #play_text ul li {width:9px;height:9px;float:left;background:url(../images/viera/index/icon_dot1.png) no-repeat;margin-right:5px;display:block;cursor:pointer;}
+.viera_index #play_text ul li span{display:none;}
+.viera_index #play_text ul li.current{background:url(../images/viera/index/icon_dot2.png) no-repeat;}
+*html .viera_index #play_text ul li{background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="images/index/icon_dot1.png");}
+*html .viera_index #play_text ul li.current{background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="images/index/icon_dot2.png");}
+.viera_index #play_list a{display:block;width:323px;height:290px;}
+/*play end*/
+/*kv*/
+.viera_index .kv_container{position:relative; height:480px;width:100%;text-align:center;overflow:hidden;/*overflow:hidden;*/}
+.viera_index .kv_container .kv{width:100%;}
+.viera_index .kv_container #pager {position:absolute;left:49%;bottom:17px;width:110px;z-index:1001;}
+.viera_index .kv_container #pager ul li{float:left;}
+.viera_index .kv_container #pager a{width:10px;height:10px;float:left;background:url(../viera/images/index/icon_dot1.png) no-repeat;margin-right:10px;display:inline-block;cursor:pointer;text-indent:-9999px; }
+.viera_index .kv_container #pager a:hover,.viera_index .kv_container #pager a.activeSlide{background:url(../viera/images/index/icon_dot2.png) no-repeat;}
+*html .viera_index .kv_container #pager a{background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src="/viera/images/index/icon_dot1.png");}
+*html .viera_index .kv_container #pager a.activeSlide{background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src="/viera/images/index/icon_dot2.png");}
+.viera_index .kv_container #arror{width:950px;margin:0 auto;top:-270px;text-align:center;position:relative;text-align:center;cursor:pointer; z-index:10000;}
+.viera_index .kv_container #arror a{display:block;width:57px;height:57px;cursor:pointer;}
+.viera_index .kv_container #btn_prev{visibility:hidden; position:absolute;left:0px;top:0px;background:url(../viera/images/index/kv_back.png) no-repeat;z-index:10000;}
+.viera_index .kv_container #btn_next{visibility:hidden; position:absolute;right:0px;top:0px;background:url(../viera/images/index/kv_next.png) no-repeat;z-index:10000;}
+*html .viera_index .kv_container #btn_prev{background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="images/index/kv_back.png");}
+*html .viera_index .kv_container #btn_next{background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="images/index/kv_next.png");}
+.btn_prd_gray{width:110px;height:26px;display:inline-block; color:#fff; text-align:center; line-height:26px; vertical-align:middle;background:url(../images/common/button/grey-btn-prd.gif) no-repeat; color:#707479;}
+.container_prd2 .spec_note{color:#666;}
+.spec_note{color:#666;}
+/*====features_other=====*/
+.features_other{padding-left:60px;clear:both;}
+.features_other h2{font-size:20px;color:#000;margin-bottom:10px;}
+.features_other .box1{border:1px solid #dee0e1;padding:1px;width:828px;}
+.features_other .box1 .inbox1{background:#f6f7f7 url(../images/viera/other-bg1.gif) left top repeat-x;padding:25px 0 25px 45px;}
+.features_other .box2{background:url(../images/viera/other-bg2.gif) no-repeat;width:832px;height:2px;overflow:hidden;font-size:0px;line-height:0px;}
+.features_other .box1 ul{float:left;}
+.features_other .box1 li h3{color:#000;font-size:14px;margin-bottom:10px;}
+.features_other .box1 li.li_normal{padding-left:10px;padding-bottom:5px;width:216px;margin-right:30px;color:#444;background:url(../images/viera/other-dot.gif) left 7px no-repeat;}
+/*====daye_other=====*/
+.daye_mainbox1{position:relative;height:550px;border-bottom:2px solid #b7915d;}
+.daye_mainbox1 .slide{position:absolute;left:0px;top:0px;height:550px;width:100%;overflow:hidden;
+background:#e3d1a9 url(../images/viera/daye/daye_bg.jpg) repeat-x;}
+.daye_mainbox1 .slide img{float:left;display:inline;}
+.daye_mainbox1 .daye_btn{width:1000px;margin:0px auto;position:relative;display:none;}
+.daye_mainbox1 .btn_prev{position:absolute;left:50px;top:222px;background:url(../images/viera/daye/arror.png) left top no-repeat;width:58px;height:99px;display:block;}
+.daye_mainbox1 .btn_next{position:absolute;right:50px;top:222px;background:url(../images/viera/daye/arror.png) right top no-repeat;width:58px;height:99px;display:block;}
+.daye_c1{ float:left;background:url(../images/viera/daye/campaign-02.jpg) no-repeat left top; width:493px; height:340px; padding-top:157px; padding-left:37px;position:relative;}
+.daye_c1 .txt1{color:#6a6a6a; font-weight:bold; line-height:1.8em;}
+.daye_c1 .txt2{color:#717171; padding-top:25px; line-height:1.7em;}
+.daye_c1 .txt2 li{color:#717171; width:210px; float:left;}
+.daye_c1 .txt2 li a{color:#717171;}
+.daye_c2{ float:left;background:url(../images/viera/daye/campaign-04.jpg) no-repeat left top; width:404px; height:593px; position:relative;}
+.daye_c2 .txt1{ position:absolute; left:57px; top:125px; color:#686767; width:270px;}
+.daye_c2 .txt2{ position:absolute; left:57px; top:180px; color:#686767; font-size:14px;}
+.daye_c2 .txt3{ position:absolute; left:57px; top:264px;}
+.daye_c2 ul{ position:absolute; left:60px; top:405px; }
+.daye_c2 li{ float:left; width:150px;font-size:12px; color:#ec6838; line-height:1.7em;}
+.daye_c2 li a{color:#ec6838;}
+/*daye start====*/
+.daye_timebox{width:950px;margin:0px auto;position:relative;}
+.daye_time{position:absolute;left:30px;top:470px;width:894px;height:63px;background:url(../images/viera/daye/daye_menu.png) no-repeat;}
+.daye_mainbox1 .daye_time a{width:35px;height:50px;display:inline-block;position:absolute;top:16px;background:}
+.daye_mainbox1 .daye_time a:hover,.daye_mainbox1 .daye_time a.current{background:url(../images/viera/daye/daye_menu_on.png) no-repeat;_background:url(../images/viera/daye/daye_menu_on.gif) no-repeat;}
+.daye_mainbox1 .daye_time a#time_00{background-position:0px 0px;left:0px;top:0px;width:54px;height:63px;}
+.daye_mainbox1 .daye_time a#time_01{background-position:-56px -16px;left:56px;}
+.daye_mainbox1 .daye_time a#time_02{background-position:-140px -16px;left:140px;}
+.daye_mainbox1 .daye_time a#time_03{background-position:-226px -16px;left:226px;}
+.daye_mainbox1 .daye_time a#time_04{background-position:-273px -16px;left:273px;}
+.daye_mainbox1 .daye_time a#time_05{background-position:-417px -16px;left:417px;}
+.daye_mainbox1 .daye_time a#time_06{background-position:-490px -16px;left:490px;}
+.daye_mainbox1 .daye_time a#time_07{background-position:-554px -16px;left:554px;}
+.daye_mainbox1 .daye_time a#time_08{background-position:-606px -16px;left:606px;}
+.daye_mainbox1 .daye_time a#time_09{background-position:-658px -16px;left:658px;}
+.daye_mainbox1 .daye_time a#time_10{background-position:-738px -16px;left:738px;}
+.daye_mainbox1 .daye_time a#time_11{background-position:-784px -16px;left:784px;}
+.daye_mainbox1 .daye_time a#time_12{background-position:-860px -16px;left:860px;}
+/*======game_mainbox=================*/
+.game_mainbox{font-family:"Microsoft YaHei", '微软雅黑',  'Arial', 'sans-serif';}
+.game_mainbox .kv{height:483px;overflow:hidden;position:relative;}
+.game_mainbox .wrap,.wrap_box{width:950px;margin:0px auto;padding:0px;}
+.game_mainbox .navbox{background:url(../images/viera/connect/bg-nav.png) repeat; width:100%;position:absolute; left:0; top:391px;height:92px;}
+.game_mainbox .nav{width:950px;margin:0px auto;}
+.game_mainbox .nav a,.game_mainbox .nav li{display:inline-block;float:left;width:135px;height:92px;}
+.game_mainbox .nav li a span{ display:none;}
+.game_mainbox .nav li.li1 a,.game_mainbox .nav li.li1,.game_mainbox .nav li.li7 a,.game_mainbox .nav li.li7{width:137px;}
+.game_mainbox .nav li.li5 a,.game_mainbox .nav li.li5{width:136px;}
+.game_mainbox .nav li.li1 a{background:url(../images/viera/connect/nav-01.png) no-repeat;}
+.game_mainbox .nav li.li2 a{background:url(../images/viera/connect/nav-02.png) no-repeat;}
+.game_mainbox .nav li.li3 a{background:url(../images/viera/connect/nav-03.png) no-repeat;}
+.game_mainbox .nav li.li4 a{background:url(../images/viera/connect/nav-04.png) no-repeat;}
+.game_mainbox .nav li.li5 a{background:url(../images/viera/connect/nav-05.png) no-repeat;}
+.game_mainbox .nav li.li6 a{background:url(../images/viera/connect/nav-06.png) no-repeat;}
+.game_mainbox .nav li.li7 a{background:url(../images/viera/connect/nav-07.png) no-repeat;}
+.game_mainbox .nav li.li1 a:hover,.game_mainbox .nav li.li1 a.current{background:url(../images/viera/connect/nav-01-on.gif) no-repeat;}
+.game_mainbox .nav li.li2 a:hover,.game_mainbox .nav li.li2 a.current{background:url(../images/viera/connect/nav-02-on.gif) no-repeat;}
+.game_mainbox .nav li.li3 a:hover,.game_mainbox .nav li.li3 a.current{background:url(../images/viera/connect/nav-03-on.gif) no-repeat;}
+.game_mainbox .nav li.li4 a:hover,.game_mainbox .nav li.li4 a.current{background:url(../images/viera/connect/nav-04-on.gif) no-repeat;}
+.game_mainbox .nav li.li5 a:hover,.game_mainbox .nav li.li5 a.current{background:url(../images/viera/connect/nav-05-on.gif) no-repeat;}
+.game_mainbox .nav li.li6 a:hover,.game_mainbox .nav li.li6 a.current{background:url(../images/viera/connect/nav-06-on.gif) no-repeat;}
+.game_mainbox .nav li.li7 a:hover,.game_mainbox .nav li.li7 a.current{background:url(../images/viera/connect/nav-07-on.gif) no-repeat;}
+.game_inmainbox{padding-top:54px;}
+.game_inmainbox .jcarousel-skin-tango{ height: 122px;overflow:hidden;}
+.game_inmainbox .jcarousel-skin-tango li{float:left;margin-right:28px;}
+.game_inmainbox .jcarousel-skin-tango li a{background:url(../images/viera/connect/gamepic-bg1.gif) center top no-repeat;padding-top:5px;text-align:center;width: 142px; height: 117px;display:inline-block;}
+.game_inmainbox .jcarousel-skin-tango li a img{padding-bottom:10px;}
+.game_inmainbox .jcarousel-skin-tango li a.current,.game_inmainbox .jcarousel-skin-tango li a:hover{background:url(../images/viera/connect/gamepic-bg2.gif) no-repeat;text-decoration:none;}
+.game_inmainbox .inbox_cont1{padding:60px 0 0 45px;width:905px;margin:0px auto;position:relative;}
+.game_inmainbox .inbox_cont1 .inbox1_txt{float:left;width:270px;text-align:left;margin-right:45px;}
+.game_inmainbox .inbox_cont1 .inbox1_txt h2{color:#95d040;font-size:22px;border-bottom:1px solid #95d040;padding-bottom:10px;}
+.game_inmainbox .inbox_cont1 .inbox1_txt p{line-height:24px;font-size:13px;padding-top:10px;}
+.game_inmainbox .kvslide_wrap{float:left;}
+.game_inmainbox .kvslide_wrap .kvslide{background:url(../images/viera/connect/game-tvbg.gif) no-repeat;width:542px;height:375px;overflow:hidden;}
+.game_inmainbox .kvslide_wrap .kvslide img{margin:4px 0 0 5px;}
+.game_inmainbox .pager {height:24px; z-index:1001;line-height:24px;padding-top:30px;}
+.game_inmainbox .pager ul li { width:24px; display:inline; float:left; margin-right:5px; }
+.game_inmainbox .pager a { 
+	float:left;
+	display:inline-block;
+	margin-right:6px;
+	margin-bottom:10px;
+	outline:none; 
+	color:#c6c6c6;
+	font-size:20px;
+	width:24px;
+	text-decoration:none;
+	text-align:center;	
+}
+.game_inmainbox .pager a:hover,.game_inmainbox .pager a.activeSlide {color:#fff;background:#95d040;}
+.game_foot {margin-top:40px;clear:both;}
+.game_colorbar{background:#039a2b url(../images/viera/connect/game-colorbar.gif) center top no-repeat;height:3px;overflow:hiddden;font-size:0px;line-height:0px;}
+.game_foot .foot_cont{padding-top:17px;background:url(../images/viera/connect/game-bar2.gif) left top repeat-x;height:48px;}
+.game_inmainbox .a_link1{background:url(../images/viera/connect/game-prev.gif) left center no-repeat;padding-left:28px;color:#626262;font-size:20px;float:left;}
+.game_inmainbox .a_link2{background:url(../images/viera/connect/game-next.gif) right center no-repeat;padding-right:28px;color:#626262;font-size:20px;float:right;}
+.connect_colorbar{background:#005017 url(../images/viera/connect/connect-colorbar.jpg) center top no-repeat;height:3px;overflow:hiddden;font-size:0px;line-height:0px;}
+.connect_mainbox .connect_kv{background:url(../images/viera/connect/connect-kvbg.jpg) repeat-x;height:396px;}
+.connect_mainbox .connect_kv .wrap_box{position:relative;}
+.connect_mainbox .connect_btn{position:absolute;left:782px;top:314px;width:163px;height:41px;display:inline-block;background:url(../images/viera/connect/btn-prd.jpg) left top no-repeat;}
+.game_mainbox .kv_game{background:#799b3e url(../images/viera/connect/game-kvbg.gif) repeat-x;}
+.game_mainbox .kv_huashu{background:url(../images/viera/connect/shixun-kvbg.gif) repeat-x;}
+.game_mainbox .kv_comm{background:#25b6d5 url(../images/viera/connect/comm-kvbg.gif) left top repeat-x;}
+.game_mainbox .kv_life{background:#e08e18 url(../images/viera/connect/life-kvbg.gif) left top repeat-x;}
+.game_mainbox .kv_browser{background:#2341a1 url(../images/viera/connect/browser-kvbg.gif) left top repeat-x;}
+.game_mainbox .kv_application{background:url(../images/viera/connect/application-kvbg.gif) repeat-x;}
+.game_mainbox .kv_Panasoniclife{background:url(../images/viera/connect/Panasoniclife-kvbg.gif) left top repeat-x;}
+.game_mainbox .kv_Panasoniclife .cont{background:url(../images/viera/connect/Panasoniclife-kvbg1.gif) no-repeat center top;}
+/*====app_inbox1====*/
+.game_mainbox .app_inbox1{background:url(../images/viera/connect/application-pic01.jpg) no-repeat;height:470px;position:relative;}
+.game_mainbox .app_inbox1 #app_slide1{height:250px;width:442px;overflow:hidden;position:absolute;left:254px;top:130px;}
+.game_mainbox .app_inbox1 #app_pager1{position:absolute;left:226px;top:424px;}
+.game_mainbox .app_inbox1 #app_pager1 li{width:69px;margin-right:2px;float:left;text-align:center;cursor:pointer;}
+.game_mainbox .app_inbox1 #app_pager1 li .dot{background:url(../images/viera/connect/application-dot.gif) left bottom no-repeat;width:69px;height:11px;display:block;}
+.game_mainbox .app_inbox1 #app_pager1 li .txt{margin-top:5px;text-align:center;font-size:14px;display:block;}
+.game_mainbox .app_inbox1 #app_pager1 li.activeSlide .dot{background:url(../images/viera/connect/application-dot-on.gif) left bottom no-repeat;}
+/*===huashu_wrap start====*/
+.huashu_wrap{width:974px;margin:0px auto;padding-bottom:25px;background:url(../images/viera/connect/shixun-bg1.png) center bottom no-repeat;text-align:left;}
+.huashu_box1{background:url(../images/viera/connect/shixun-img1.png) no-repeat;width:961px;height:590px;padding-left:13px;}
+.huashu_box1 h2{color:#c11063;font-size:26px;padding-bottom:10px;border-bottom:1px solid #c11063;width:270px;}
+.huashu_box1 p{font-size:13px;line-height:24px;color:#2f3829;width:360px;margin-top:30px;}
+.huashu_box2{padding-top:65px;}
+.huashu_box2 h3{background:url(../images/viera/connect/huashu-line1.png) center bottom no-repeat;_background:url(../images/viera/connect/huashu-line1.gif) center bottom no-repeat;zoom:1;font-size:20px;color:#9f004f;padding-bottom:14px;text-align:center;margin-bottom:30px;}
+.hushu_inbox2{padding-left:43px;}
+.hushu_inbox2 .hushutv_list{float:left;margin-right:26px;margin-bottom:45px;width:210px;color:#666666;}
+.hushu_inbox2 .hushutv_list .btn{text-align:center;margin-bottom:10px;}
+.hushu_inbox2 .hushutv_list p{width:160px;line-height:20px;padding-left:13px;}
+/*===browser start====*/
+.browser_wrap{ text-align:left;padding:10px 0 0 45px;width:905px;margin:0px auto;font-size:14px;color:#454545;}
+.browser_wrap h2{ color:#467fff; font-size:26px; padding-bottom:30px;}
+.browser_wrap h2 span{ font-size:18px;}
+.browser_wrap h3{ color:#000;}
+.browser_wrap h3,.browser_wrap p{ padding-bottom:10px;}
+.browser_wrap p.notice{ font-size:12px; color:#888; padding-bottom:20px;}
+.browser_wrap p.notice a{ text-decoration:underline;color:#888;}
+/*===remote start====*/
+.kv_remote{background:#290058 url(../images/viera/connect/remote-kvbg.jpg) no-repeat center top; height:480px; width:100%; position:relative;}
+.remote_nav{background:url(../images/viera/connect/remote-nav-bg.png) repeat; width:100%; height:92px; position:absolute; bottom:0px; left:0px;}
+*html .remote_nav{background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="/images/viera/connect/remote-nav-bg.png");}
+.remote_nav li{ float:left;}
+.remote_nav li a{ display: block; height:92px;width:317px;}
+.remote_nav li a#tab_1{background:url(../images/viera/connect/remote-nav1.gif) no-repeat;}
+.remote_nav li a#tab_2{background:url(../images/viera/connect/remote-nav2.gif) no-repeat;width:316px;}
+.remote_nav li a#tab_3{background:url(../images/viera/connect/remote-nav3.gif) no-repeat;}
+.remote_nav li a#tab_1:hover,.remote_nav li a#tab_1.active{background:url(../images/viera/connect/remote-nav1-on.gif) no-repeat;}
+.remote_nav li a#tab_2:hover,.remote_nav li a#tab_2.active{background:url(../images/viera/connect/remote-nav2-on.gif) no-repeat;}
+.remote_nav li a#tab_3:hover,.remote_nav li a#tab_3.active{background:url(../images/viera/connect/remote-nav3-on.gif) no-repeat;}
+.remote_nav li span{ display:none;}
+.free_nav{ width:950px; margin:45px auto; text-align:center; overflow:hidden;}
+.free_nav li{ float:left; margin-right:1px;}
+.free_nav li a{ display: block; width:236px;height:59px;}
+.free_nav li a#tab1_1{background:url(../images/viera/connect/remote-free-nav1.gif) no-repeat;}
+.free_nav li a#tab1_2{background:url(../images/viera/connect/remote-free-nav2.gif) no-repeat;}
+.free_nav li a#tab1_3{background:url(../images/viera/connect/remote-free-nav3.gif) no-repeat;}
+.free_nav li a#tab1_4{background:url(../images/viera/connect/remote-free-nav4.gif) no-repeat;}
+.free_nav li a#tab1_1:hover,.free_nav li a#tab1_1.active{background:url(../images/viera/connect/remote-free-nav1-on.gif) no-repeat;}
+.free_nav li a#tab1_2:hover,.free_nav li a#tab1_2.active{background:url(../images/viera/connect/remote-free-nav2-on.gif) no-repeat;}
+.free_nav li a#tab1_3:hover,.free_nav li a#tab1_3.active{background:url(../images/viera/connect/remote-free-nav3-on.gif) no-repeat;}
+.free_nav li a#tab1_4:hover,.free_nav li a#tab1_4.active{background:url(../images/viera/connect/remote-free-nav4-on.gif) no-repeat;}
+.free_nav li span{ display:none;}
+.free_inmainbox{ margin-bottom:30px;text-align:left;font-size:14px; color:#252525;}
+.free_inmainbox .jcarousel-skin-tango{ height: 500px;overflow:hidden;}
+.free_inmainbox .jcarousel-skin-tango li{float:left;margin-right:20px; width:820px;}
+.free_inmainbox h1{ font-size:30px; font-weight:normal; color:#000; padding-bottom:10px;text-align:left;}
+.free_inmainbox .orange{ color:#ffa200;}
+.free_inmainbox .title{ padding-bottom:40px;overflow:hidden;}
+.free_inmainbox .title span{ float:left;}
+.free_inmainbox .title li{ float:left;background:url(../images/viera/connect/remote-share-bg1.gif) no-repeat; width:45px; height:23px; line-height:23px; vertical-align:middle; text-align:center; color:#fff; margin-right:5px; font-weight:bold;}
+.free_inmainbox .title li a{color:#fff; text-decoration:none;}
+.free_inmainbox p{ padding-bottom:15px;}
+.free_inmainbox .notice{ color:#878787;}
+.free_inmainbox .notice a{color:#878787; text-decoration:underline;}
+.free_inmainbox  .rtable1 td{ padding-right:10px; text-align:center;vertical-align:top;}
+.free_inmainbox  .rtable1 td.td1{ color:#2b2b2b; font-size:12px;}
+.free_inmainbox  .rtable1 td img{ padding:5px 0;}
+.share_nav{ width:950px; margin:45px auto; text-align:center; overflow:hidden;}
+.share_nav li{ float:left; margin-right:1px;}
+.share_nav li a{ display: block; width:474px;height:59px;}
+.share_nav li a#tab2_1{background:url(../images/viera/connect/remote-share-nav1.gif) no-repeat;}
+.share_nav li a#tab2_2{background:url(../images/viera/connect/remote-share-nav2.gif) no-repeat;}
+.share_nav li a#tab2_1:hover,.share_nav li a#tab2_1.active{background:url(../images/viera/connect/remote-share-nav1-on.gif) no-repeat;}
+.share_nav li a#tab2_2:hover,.share_nav li a#tab2_2.active{background:url(../images/viera/connect/remote-share-nav2-on.gif) no-repeat;}
+.share_nav li span{ display:none;}
+.share_wrap{text-align:left; font-size:14px;margin:0 auto; width:950px;}
+.share_wrap h2,.share_wrap h3,.share_wrap p{ padding-bottom:10px;}
+.share_wrap h3{ font-weight:bold;}
+.share_wrap .flash{ padding-top:30px; padding-bottom:60px; text-align:center;}
+.share_wrap .imgbox1{ float:left; text-align:center; font-size:12px;}
+.share_wrap .imgbox1 img{ padding-bottom:5px; color:#252525;}
+.share_wrap .table1{margin:10px 0px 50px 100px;}
+.share_wrap .table1 td{ font-size:12px; color:#252525; text-align:center;}
+.share_wrap .table1 img{ padding-bottom:5px;}
+.share_wrap .table1 td.td1{ font-size:14px; width:260px; padding-right:45px; text-align:left;vertical-align:top;}
+.share_wrap .table1 td.td2{ text-align:left; padding-top:60px;}
+.share_wrap .table2{ margin-top:10px; margin-bottom:50px;}
+.share_wrap .table2 td{font-size:12px;color:#252525; line-height:1.8em; vertical-align:top;}
+.share_wrap .table2 td li{background:url(../images/viera/connect/icon1.gif) no-repeat 15px center; padding-left:25px;}
+.share_wrap .table2 td img{ padding-bottom:5px;}
+.share_wrap .back_top{ float:right;background:url(../images/icon_top.gif) no-repeat left center; padding-left:10px; font-size:12px; margin-bottom:20px;}
+.link_wrap{ padding:100px 60px 0 60px;width:830px;margin:0px auto;font-size:12px;text-align:left; padding-bottom:50px;}
+.link_wrap h1{ font-weight:normal;font-size:24px; color:#000; padding-top:20px;}
+.link_wrap .t1{ font-size:14px;}
+.link_wrap p{ padding-bottom:10px;}
+.link_wrap p.notice{ font-size:14px;color:#878787;padding-top:20px; padding-bottom:30px;}
+.link_wrap th{ font-weight:normal;font-size:14px;padding-bottom:10px;}
+.link_wrap td{width:410px; color:#2b2b2b; line-height:1.8em;padding-bottom:20px;}
+.link_wrap li{ float:left;background:url(../images/viera/connect/remote-share-bg1.gif) no-repeat; width:45px; height:23px; line-height:23px; vertical-align:middle; text-align:center; color:#fff; margin-right:5px; font-weight:bold;}
+.link_wrap li a{ color:#fff; text-decoration:none;}
+/*gallery_box start==*/
+.container_prd2 .mainwrap .gallery_box{background:#fff;border:1px solid #e5e5e5;}
+.container_prd2 .mainwrap  .gallery_box .panel{background:#fff;}
+.container_prd2 .mainwrap  .gallery_box  .nav-prev{background:url(../images/lumix/products/gallery_btn.jpg) 0 0 no-repeat;}
+.container_prd2 .mainwrap  .gallery_box  .nav-next{background:url(../images/lumix/products/gallery_btn.jpg) -42px 0 no-repeat;}
+.container_prd2 .mainwrap  .gallery_box  .nav-prev:hover{background-position:-85px 0;}
+.container_prd2 .mainwrap  .gallery_box  .nav-next:hover{background-position:-127px 0;}
+.container_prd2 .mainwrap  .gallery_box  .filmstrip li{border:1px solid #cccccc;margin-right:10px;width:108px;height:78px;overflow:hidden;}
+.container_prd2 .mainwrap  .gallery_box #pointer{border:2px solid red;height:84px;z-index:1000;}
+/*gallery_box end==*/
+.share_nav li a#tab3_1{background:url(../images/viera/connect/wifi-nav1.gif) no-repeat;}
+.share_nav li a#tab3_2{background:url(../images/viera/connect/wifi-nav2.gif) no-repeat;}
+.share_nav li a#tab3_1:hover,.share_nav li a#tab3_1.active{background:url(../images/viera/connect/wifi-nav1-on.gif) no-repeat;}
+.share_nav li a#tab3_2:hover,.share_nav li a#tab3_2.active{background:url(../images/viera/connect/wifi-nav2-on.gif) no-repeat;}
+/* wifi */
+#wifi_2 .text{color:#000;font-size:14px;}
+#wifi_2 h2{color:#000000;font-size:30px;margin-bottom:30px;margin-top:55px;}
+#wifi_2 .item{display:inline;float:left;width:285px;margin-right:120px;margin-bottom:25px;}
+#wifi_2 .item .ttl{color:#000;font-size:14px;margin-bottom:18px;}
+#wifi_2 .item4 .sp_txt{margin-left:102px;padding-top:60px;}
+#wifi_2 .item4 .sp_txt p{padding-bottom:0;}
+#wifi_2 .item4 .pic{float:left;}
+#wifi_2 .item7 .sp_txt{padding-top:10px;}
+
+/*0629css*/
+.header .menu .inmenu li.li1{position:relative;}
+.header .menu .inmenu li.li1 a{background:url(../viera/images/menudef.jpg) no-repeat;}
+.header .menu .inmenu li.li1 a.current{background:url(../viera/images/menucurr.jpg) no-repeat;}
+.header .menu .inmenu li.li1 a#menu1:hover{background:url(../viera/images/menudon.jpg) no-repeat;}
+.header .menu .inmenu li.li1 a.icon_home{width:60px;height:50px;background:url(../../images/common/home4.png) no-repeat;position:absolute;left:0;top:0;}
+.header .menu .inmenu li.li1 a.icon_home:hover,.header .menu .inmenu li.li1 a.icon_home_cur{width:60px;height:50px;background:url(../../images/common/home-on.png) no-repeat;position:absolute;left:0;top:0;}
+*html .header .menu .inmenu li.li1 a.icon_home{background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="/images/common/home4.png");}
+*html .header .menu .inmenu li.li1 a.icon_home:hover,*html .header .menu .inmenu li.li1 a.icon_home_cur{background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="/images/common/home-on.png");}
+/*videobox css*/
+.videobox{width:290px; height:201px; margin-bottom:8px;}
+.shixun_tab{background:url(../images/viera/connect/pptv/tab-huashu.png) no-repeat;width:948px;height:64px;margin:25px auto 40px auto;}
+.shixun_tab li,.shixun_tab a{width:474px;height:64px;display:block;float:left;}
+.shixun_tab a:hover,.shixun_tab a.cur{background:url(../images/viera/connect/pptv/tab-huashu-on.png) no-repeat;_background:url(../images/viera/connect/pptv/tab-huashu-on.gif) no-repeat;}
+.shixun_tab .sx_li1 a:hover,.shixun_tab .sx_li1 a.cur{background-position:0 0;}
+.shixun_tab .sx_li2 a:hover,.shixun_tab .sx_li2 a.cur{background-position:-474px 0px;}
+.pptv_box1{background:url(../images/viera/connect/pptv/pptv-pic1.png) left 50px no-repeat;height:699px;width:950px;margin:0px auto;text-align:left;zoom:1;}

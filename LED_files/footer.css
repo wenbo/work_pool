@@ -1,0 +1,184 @@
+@charset "utf-8";
+/*====footer_wrap start====*/
+/*footer*/
+.footer_nav{width:948px;margin:0px auto;verflow:hidden;margin-top:20px; border:1px solid #e5e5e5;height:38px;line-height:38px;vertical-align:middle;font-size:12px;background:#fff;}
+.footer_nav .nav_bread{color:#a9a9a9;float:left;}
+.footer_nav .share{ float:right; padding-right:20px; color:#c4c4c1; width:195px;}
+.footer_nav .share span{ float:left;}
+.footer_nav .share img{ float:left;margin-left:10px; margin-top:11px;}
+.footer_nav .title{text-align:left; padding-left:15px;}
+.footer_nav .title span{background:url(/images/footer_arror.gif) no-repeat left center; padding-left:30px; display:block; float:left; margin-left:10px; color:#afafaf;}
+.footer_nav .title a{color:#202020; display:block; float:left;}
+.footer_nav .title a:hover{color:#0061b0;text-decoration:none;}
+.footer_nav .title a.home{background:url(/images/common/icon_home.png) no-repeat left 11px; _background:url(/images/common/icon_home.gif) no-repeat left 11px;padding-left:20px;margin-right:10px;}
+.footer_nav .title a.home:hover{background:url(/images/common/icon_home_on.png) no-repeat left 11px;_background:url(/images/common/icon_home_on.gif) no-repeat left 11px;}
+.footer{width:874px;margin:0px auto;overflow:hidden;border:1px solid #e5e5e5; border-top:none;text-align:left;background:#fff;padding:18px 37px 15px;}
+.footer a:hover{text-decoration:underline;}
+.footer_list{height:20px; line-height:20px; margin-bottom:13px;}
+.footer_list li{line-height:20px; float:left; margin-right:13px;}
+.footer_list li a{ color:#646464;}
+.footer_list li a:hover,.footer h2 a:hover{ color:#1c4389; }
+.footer h2{font-size:14px;line-height:20px;color:#1c4389;font-weight:bold; float:left; width:80px;}
+.footer h2 a{ color:#1c4389;}
+.footer_tip{margin-top:10px; white-space:nowrap;}
+.footer_tip a{color:#1C4389; margin-right:20px; line-height:25px;}
+/*body_foot*/
+.body_foot{ color:#a1a1a1; width:950px; margin:0 auto;padding-top:15px; padding-bottom:20px; text-align:left;}
+.copyright{ clear:both; border-top:1px solid #ebebeb; padding-top:15px;color:#a7a7a7;height:100px;}
+.copyright a{color:#a7a7a7;}
+.copyright a:hover{color:#000;}
+.copyright .wrap{position:relative;width:950px;margin:0px auto;}
+.copyright .copy{margin-top:5px;}
+.mapsite{ position:absolute; left:0px; top:0px;}
+.mapsite a{margin:0 10px;line-height:18px;}
+.mapsite span{width:1px;height:10px;display:inline-block;background:#b5b5b5;line-height:18px;vertical-align:middle;}
+.eco{position:absolute; right:0px; top:0px;}
+.icp{ position:absolute;top:75px; left:0px;text-align:left;}
+.copyright p.cSelecter { position:absolute;left:270px; top:0px; width:120px; height:21px; }
+.copyright div.cSelecterBox {
+    background-color: #0048BB;
+    height: 29.5em;
+    left: 0;
+    position: absolute;
+    top: -29em;
+    width: 967px;
+    z-index: 510;
+}
+.copyright ul#tab {
+    background-color: #FFFFFF;
+    height: 54px;
+    margin: 20px 20px 0;
+}
+.copyright div#cSelecterTabCont {
+    background-color: #FFFFFF;
+    border-left: 1px solid #E6E6E6;
+    border-right: 1px solid #E6E6E6;
+    height: 19em;
+    margin: 0 20px;
+}
+.copyright div.cSelecterBox p.close {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.copyright div.cSelecterBox {
+    display: none;
+}
+.copyright p.cSelecter {
+    position: relative;
+}
+.copyright p.cSelecter a {	
+    position: absolute;
+	left: 0;
+    bottom: -20px;
+    display: block;
+    height: 20px;    
+	border:1px solid #ebebeb;
+    width:86px;
+	padding-left:10px;
+	line-height:20px;
+	vertical-align:middle;
+	background:url(../images/common/icon_arr1.gif) 80px center no-repeat;
+}
+.copyright p.cSelecter a.active {
+    background-color: #0048BB;
+    height: 35px;
+	line-height:35px;
+	vertical-align:middle;
+	color:#fff;
+}
+.copyright ul.cSelecterTab {
+    margin: 0;
+    padding: 0;
+    width: 927px;
+}
+.copyright ul.cSelecterTab li {
+    display: block;
+    float: left;
+    text-indent: -9999em;
+}
+.copyright ul.cSelecterTab li a {
+    background-image: url("/images/ga2012_country_selector_tab.jpg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    display: block;
+    height: 54px;
+    text-indent: -9999em;
+    width: 155px;
+}
+.copyright ul.cSelecterTab li.asia a {
+    width: 153px;
+}
+.copyright ul.cSelecterTab li.china a {
+    background-position: -153px top;
+}
+.copyright ul.cSelecterTab li.cis a {
+    background-position: -308px top;
+
+}
+.copyright ul.cSelecterTab li.europe a {
+    background-position: -463px top;
+}
+.copyright ul.cSelecterTab li.lAmerica a {
+    background-position: -618px top;
+}
+.copyright ul.cSelecterTab li.nAmerica a {
+    background-position: -773px top;
+    width: 154px;
+}
+.copyright ul.cSelecterTab li.asia a.active {
+    background-position: 0 -54px;
+}
+.copyright ul.cSelecterTab li.china a.active {
+    background-position: -153px -54px;
+}
+.copyright ul.cSelecterTab li.cis a.active {
+    background-position: -308px -54px;
+}
+.copyright ul.cSelecterTab li.europe a.active {
+    background-position: -463px -54px;
+}
+.copyright ul.cSelecterTab li.lAmerica a.active {
+    background-position: -618px -54px;
+}
+.copyright ul.cSelecterTab li.nAmerica a.active {
+    background-position: -773px -54px;
+}
+.copyright div#cSelecterTabCont .select_ul {
+    padding: 15px;
+}
+.copyright div#cSelecterTabCont span {
+    background-color: #FFFFFF;
+    display: inline-block;
+    float: left;
+    margin-left: 16px;
+    min-height: 2.3em;
+    width: 23%;
+}
+.copyright div.cSelecterBox p.globalHome {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E6E6E6;
+    border-left: 1px solid #E6E6E6;
+    border-right: 1px solid #E6E6E6;
+    height: 2.7em;
+    margin: 0 20px;
+    text-align: right;
+}
+.copyright div.cSelecterBox p.globalHome a {
+    background-color: #FFFFFF;
+    background-image: url("/images/ga2012_icn_globalhome.jpg");
+    background-position: left 0;
+    background-repeat: no-repeat;
+    padding: 5px 15px 5px 25px;
+}
+.copyright div#cSelecterTabCont ul:before, .copyright div#cSelecterTabCont ul:after, .copyright ul.cSelecterTab:before, .copyright ul.cSelecterTab:after, .copyright:before, .copyright:after, .copyright ul:before, .copyright ul:after, div#ga2012_header:before, div#ga2012_header:after, .clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.copyright div#cSelecterTabCont ul:after, .copyright ul.cSelecterTab:after, .copyright:after, .copyright ul:after, div#ga2012_header:after, .clearfix:after {
+    clear: both;
+}
+.copyright div#cSelecterTabCont ul, .copyright ul.cSelecterTab, .copyright, .copyright ul, div#ga2012_header, .clearfix {
+}
+.footnfgx{font-size:0; height:1px; line-height:1px; overflow:hidden; border-bottom:1px solid #e5e5e5;}
+/*====footer_wrap end====*/
