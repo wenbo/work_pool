@@ -5,7 +5,7 @@ input60 = $("#para19-1")
 filterfactor.tClick($(input60));
 
 
-  filterfactor.tClick
+filterfactor.tClick:
 function (_obj)
 {
   var tobj = _obj;
@@ -14,18 +14,16 @@ function (_obj)
 }
 
 
-filterfactor.tCurrentFilterArray
-filterfactor.tChangeFilterDataListPage(1);
-  filterfactor.tChangeFilterDataListPage
+filterfactor.tChangeFilterDataListPage:
 function (_number)
 {
   var tnumber = _number;
   this.tCurrentPage = tnumber;
   this.tLoadFilterDataList();
 }
-filterfactor.tLoadFilterDataList();
 
-  filterfactor.tLoadFilterDataList
+
+filterfactor.tLoadFilterDataList:
 function ()
 {
   var tmpstr = '';
