@@ -4,6 +4,8 @@ tCurrentFilterValue = filterfactor.tCurrentFilterArray[tq];
 tDataListArray = filterfactor.datalist.tGetArray();
 ti = 12;
 tstrers = tCurrentFilterFactor = tDataListArray[ti]['filterfactor'];
+// "19_____VALUES_____55,47_____PARAMETERS_____20_____VALUES_____1,2,3"
+// tstrers = "1_____VALUES_____55_____PARAMETERS_____2_____VALUES_____1,2,3_____PARAMETERS_____3_____VALUES_____2"
 tstrersArray = tstrers.split(filterfactor.tCurrentParameterSpString);
 filterfactor.tCheckMatchingValue(tq, tCurrentFilterValue, tstrersArray);
 
@@ -86,11 +88,11 @@ function (_str1, _str2, _strArray)
   {
     var tb = false;
     var tstr2Array = tstr2.split(',');
-    for (var ti = 0; ti < tstr2Array.length; ti ++)
+    for (var ti = 0; ti < tstr2Array.length; ti ++) //这个是 filter 的参数
     {
       var tbb = false;
-      var tCurrentStr2 = tstr2Array[ti];
-      for (var tk = 0; tk < tstrArray.length; tk ++)
+      var tCurrentStr2 = tstr2Array[ti]; // 这个是 filter 的参数
+e     for (var tk = 0; tk < tstrArray.length; tk ++)
       {
         var tCurrentStrers = tstrArray[tk];
         if (tCurrentStrers != '')

@@ -1,6 +1,8 @@
 input60 = $("#para19-1")
 <input name="para19" type="checkbox" value="60" id="para19-1" rsid="19" onclick="filterfactor.tClick(this);">
 
+filterfactor.tCurrentParameterSpString
+
 
 filterfactor.tClick($(input60));
 
@@ -12,6 +14,8 @@ function (_obj)
   this.tCurrentFilterArray[tobj.getAttribute('rsid')] = this.tGetCheckboxsValue(tobj.getAttribute('name'));
   this.tChangeFilterDataListPage(1);
 }
+// filterfactor.tGetCheckboxsValue("para19")
+// filterfactor.tGetCheckboxsValue("para20")
 
 
 filterfactor.tChangeFilterDataListPage:
