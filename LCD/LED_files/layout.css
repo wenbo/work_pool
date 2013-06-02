@@ -1,0 +1,31 @@
+@charset "utf-8";
+.prdlist_mainbox{padding-top:20px;}
+.prdlist_mainbox .prdlist_bar{width:230px;float:left;_overflow:hidden;}
+.prdlist_mainbox .prdlist_bar1{margin-bottom:10px;}
+.prdlist_mainbox .prdlist_bar1 dt{font-size:14px;font-weight:bold;}
+/*.prdlist_mainbox .prdlist_bar1 dt a{padding:14px;display:inline-block;width:200px;}*/
+.prdlist_mainbox .prdlist_bar1 dt.line{_font-size:0px;_line-height:0px;height:2px;_overflow:hidden;padding:0px;margin:0px;_display:inline-block;}
+.prdlist_mainbox .prdlist_bar1 dd{margin-left:18px;display:inline-block;width:230px;_width:228px;_overflow:hidden;}
+.prdlist_mainbox .prdlist_bar1 dd a:hover{text-decoration:underline;}
+.prdlist_mainbox .prdlist_bar1 dd li{margin-bottom:13px;padding-left:10px;}
+.prdlist_mainbox .prdlist_bar2 label:hover{text-decoration:underline;cursor:pointer;}
+.prdlist_mainbox .prdlist_bar2{padding-bottom:25px;}
+.prdlist_mainbox .prdlist_bar2 h2{height:37px;padding-left:14px;font-size:14px;line-height:37px;}
+.prdlist_mainbox .prdlist_bar2 h3{color:#aa003f;font-weight:bold;margin-bottom:10px;font-size:12px;display:block;zoom:1;}
+.prdlist_mainbox .prdlist_bar2 .bar2_cont{padding:14px 0 5px 14px;}
+.prdlist_mainbox .prdlist_bar2 .bar2_cont input{margin-right:7px;}
+.prdlist_mainbox .prdlist_bar2 .bar2_cont li{margin-bottom:10px;}
+.prdlist_mainbox .prdlist_bar2 .btn{padding-left:54px;}
+.prdlist_mainbox .prdlist_bar2 input{vertical-align:middle;}
+.prdlist_mainbox .prdlist_cont{float:right;width:710px;}
+.prdlist_mainbox .prdlist_cont .pager{height:48px;padding:0 14px 0 12px;line-height:48px;}
+.prdlist_mainbox .prdlist_cont .pager_dscp{float:left;font-size:14px;}
+.prdlist_mainbox .prdlist_cont .pager_dscp span{font-weight:bold;margin-right:7px;}
+.prdlist_mainbox .prdlist_cont .pager_cont{float:right;}
+.prdlist_mainbox .prdlist_cont .pager_cont li{float:left;margin-right:7px;display:inline-block;}
+.prdlist_mainbox .prdlist_cont .pager_cont .page_prev span,.prdlist_mainbox .prdlist_cont .pager_cont .page_next span{font-family:'Arial';}
+.prdlist_mainbox .prdlist_cont .pager_cont .page_prev{margin-right:10px;}
+.prdlist_mainbox .prdlist_cont .pager_cont li.num a{width:19px;display:inline-block;text-align:center;}
+.prdlist_mainbox .prdlist_cont .prdlist_cont1{padding:10px 0 20px 30px;clear:both;}
+.prdlist_mainbox .prdlist_cont .rela_box{width:210px;margin-right:10px; margin-bottom:30px;margin-top:20px;}
+.prdlist_mainbox .prdlist_cont .rela_box .img{position:relative;}
