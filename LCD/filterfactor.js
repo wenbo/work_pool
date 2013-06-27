@@ -218,9 +218,10 @@ filterfactor = {
   tEmpty: function()
   {
     this.tCurrentFilterArray = [];
-    $('#prdlist_cont').show();
-    $('#prdlist_cont_filter').hide();
+    //$('#prdlist_cont').show();
+    //$('#prdlist_cont_filter').hide();
     $('#filterfactor').find('[type=\'checkbox\']').attr('checked', false);
+   filterfactor.tChangeFilterDataListPage(1);
   },
   tInit: function()
   {
