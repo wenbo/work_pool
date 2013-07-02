@@ -106,7 +106,6 @@ filterfactor = {
   tLoadFilterDataList: function()
   {
     var tmpstr = '';
-    var tOriListObj = $('#prdlist_cont');
     var tFilterListObj = $('#prdlist_cont_filter');
     var tFilterListCont1Obj = $('#prdlist_cont1_filter');
     var tFilterFactoryCont1Obj = $('#prdlist_cont1_filter_factory');
@@ -207,7 +206,6 @@ filterfactor = {
         tFilterListObj.find('.pager').append(tNewPagerContObj);
       };
     };
-    tOriListObj.hide();
     tFilterListObj.show();
     try
     {

@@ -96,21 +96,28 @@
         <div class="btn"><a class="btn_prdlist1" href="javascript:void(0);" onclick="filterfactor.tEmpty();">清空筛选条件</a></div>
       </div>
     </div>
-    <div id="prdlist_cont" class="prdlist_cont">
-    </div>
     <div id="prdlist_cont_filter" class="prdlist_cont" style="display:none" prevpagetext="上一页" nextpagetext="下一页">
       <div class="pager pager1">
-        <div class="pager_dscp"><span>AQUOS Quattron 3D系列</span>显示第<label id="prdlist_cont_filter_start_number">0</label>~<label id="prdlist_cont_filter_end_number">0</label>个产品/共<label id="prdlist_cont_filter_totalcount">0</label>个</div>
+        <div class="pager_dscp">
+          <span>AQUOS Quattron 3D系列</span>显示第
+          <label id="prdlist_cont_filter_start_number">0</label>~
+          <label id="prdlist_cont_filter_end_number">0</label>个产品/共
+          <label id="prdlist_cont_filter_totalcount">0</label>个
+        </div>
       </div>
       <div id="prdlist_cont1_filter" class="prdlist_cont1"></div>
       <div id="prdlist_cont1_filter_factory" style="display:none">
         <div class="rela_box" style="{$-plugin-string-1}">
           <a class="a1" href="http://sharp.cn/%7B$-category-product-folder%7D" notclickable="{$notclickable}" onmouseover="if ($(this).attr('notclickable') == '1') { $(this).css('cursor', 'default'); $(this).attr('href', '###'); }">
-            <div class="img"><img src="./LED_files/property-{$property_topid}-list.{$property_topid_filetype}" alt="{$topic}"><span class="icon{$state}"></span></div>
+            <div class="img">
+              <img src="./LED_files/property-{$property_topid}-list.{$property_topid_filetype}" alt="{$topic}">
+              <span class="icon{$state}"></span>
+            </div>
             <h4>{$topic}</h4>
             <div class="dscp">{$subtopic}</div>
           </a>
-          <a class="btn_prd" href="http://sharp.cn/%7B$-category-product-folder%7D" notclickable="{$notclickable}" onmouseover="if ($(this).attr('notclickable') == '1') { $(this).css('cursor', 'default'); $(this).attr('href', '###'); }">{$-notclickable-text}</a>
+          <a class="btn_prd" href="http://sharp.cn/%7B$-category-product-folder%7D" notclickable="{$notclickable}" onmouseover="if ($(this).attr('notclickable') == '1') { $(this).css('cursor', 'default'); $(this).attr('href', '###'); }">{$-notclickable-text}
+          </a>
         </div>
       </div>
       <div class="pager"></div>
@@ -120,6 +127,6 @@
 </div>
 <script type="text/javascript">
   (function() {
-filterfactor.tChangeFilterDataListPage(1);
-})();
-</script>
+   filterfactor.tChangeFilterDataListPage(1);
+   })();
+ </script>
